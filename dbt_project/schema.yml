@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: staging_rates
+    columns:
+      - name: rate_date
+        tests:
+          - not_null
+      - name: char_code
+        tests:
+          - not_null

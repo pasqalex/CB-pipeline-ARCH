@@ -1,2 +1,7 @@
 secrets/
 .env
+target/
+dbt_packages/
+logs/
+.user.yml
+*.log
