@@ -82,7 +82,7 @@ def load(target_date: date) -> None:
 
 
 if __name__ == "__main__":
-    start = date(2026, 9, 23)
+    start = date(2025, 1, 1)
     end = date.today()
 
     current = start
